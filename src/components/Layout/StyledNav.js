@@ -1,9 +1,17 @@
 import styled from 'styled-components';
 
 const StyledNav = styled.nav`
-  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  font-family: 'Playfair Display', serif;
+  color: black;
     .selected {
-      color: blue;
+      font-style: italic;
+    }
+    .nav-link {
+      margin-right: 2em;
+      position: relative;
     }
  `;
 

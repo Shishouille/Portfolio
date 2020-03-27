@@ -2,21 +2,18 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-// import Layout from 'src/components';
-import {
-  Layout,
-  Bio,
-  Skills,
-  Projects,
-  Contact,
-} from 'src/components';
+import Layout from 'src/components/Layout';
+import Bio from 'src/components/Pages/Bio';
+import Contact from 'src/components/Pages/Contact';
+import Projects from 'src/components/Pages/Projects';
+import Skills from 'src/components/Pages/Skills';
 
+import StyledApp from './StyledApp';
 
 // == Composant
 const App = () => (
-  <div className="app">
+  <StyledApp>
     <Layout>
-      <h1>Hello App</h1>
       <Switch>
         <Route exact path="/">
           <Bio />
@@ -32,7 +29,7 @@ const App = () => (
         </Route>
       </Switch>
     </Layout>
-  </div>
+  </StyledApp>
 );
 
 // == Export

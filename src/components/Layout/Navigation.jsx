@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import StyledNav from '.';
+import StyledNav from './StyledNav';
 
 
 const Navigation = () => (

@@ -38,8 +38,8 @@ const Bio = () => {
     console.log(counter);
   };
   return (
-    <>
-      <StyledTitle>Hello World!</StyledTitle>
+    <div style={{ minHeight: '100vh' }}>
+      <StyledTitle>Bio</StyledTitle>
       <StyledBioIntro>
         <div className="bio-profile">
           <img src={profilePicture} className="bio-picture" alt="Me" />
@@ -49,10 +49,19 @@ const Bio = () => {
         </div>
         <article className="bio-article">
           <h2 className="bio-article-title">About me</h2>
-          <p>
-            Du cursus universitaire à l'école en téléprésentiel, je suis une développeuse web à la recherche d'une entreprise qui n'hésite pas à mettre des ressources dans le leadership : Je suis convaincue qu'une équipe soudée, avec un leader légitime qui connait les qualités et défauts de chaque membre (et par conséquent sait les gérer/ mettre en avant) est la clé du succès.
-            En tant que membre de cette future équipe, vous trouverez quelqu'un à l'écoute de ses émotions, et attentive à celle des autres. Je suis à fond pour l'entraide ! Un problème complexe est toujours plus facilement résolu à plusieurs.
-            Une fois intégrée, j'ai une réelle envie de créer des liens, d'apprendre, de grandir et d'évoluer avec vous. Vous trouverez quelqu'un qui sait s'adapter et prendre rapidement ses marques dans un nouvel environnement.
+          <p className="bio-article-text">
+            From a psychology degree to a remote dev school, I am now a web Developper looking for a team with a strong leadership. A great team cooperation has to go by knowing weaknesses and qualities of each other. Then, we can deal with the bad and excel with the good.
+          </p>
+          <p className="bio-article-text">
+            As a future member of your team, if you're looking for hire, here are mine :
+          </p>
+          <p className="bio-article-text">
+            I am a great listener, with a good empathy. I care a lot about other people. I am a moral person with principles. I can adapt easily. But I can get overwhelmed by my emotions, be easily bored, and a little stubborn.
+          </p>
+          <h2 className="bio-article-title">Where will I go ?</h2>
+          <p className="bio-article-text">
+            I want to move from where I am now. I can go anywhere in Europe : from Spain to Norway.
+            My luggages are ready!
           </p>
         </article>
       </StyledBioIntro>
@@ -64,7 +73,7 @@ const Bio = () => {
           <h3 className="bio-hobbies">I like to {hobbies[counter]} </h3>
         </aside>
       </StyledBioHobbies>
-    </>
+    </div>
   );
 };
 

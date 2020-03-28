@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+import theme from 'src/styles/theme';
 
 const wiggle = keyframes`
 from { 
@@ -11,15 +12,31 @@ to {
     transform: rotate(2deg); 
   }`;
 
+const FadeIntro = keyframes`
+from { 
+  transform: translate(0, 20%);
+  opacity: 0;
+  }
+to { 
+  transform: translate(0); 
+  opacity: 100%;
+  }`;
+
 const StyledContact = styled.main`
     display: flex;
+    overflow:hidden;
+    color: ${theme.color.main};
     justify-content: space-around;
     text-align: center;
     font-size: 1.5em;
     align-items: center;
     flex-flow: column-wrap;
     width:100%;
-    height:75vh;
+    min-height:90vh;
+    font-family: ${theme.font.text};
+    animation-name: ${FadeIntro};
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
 
     .contact-link {
         cursor: pointer;
@@ -36,16 +53,15 @@ const StyledContact = styled.main`
     @media (max-width: 768px) {
     display:block;
     margin:auto;
-    width:50%;
     text-align: center;
     .contact-link {
         display:block;
         font-size: .7em;
-        height: 20%;
         cursor: pointer;
+        margin-bottom: 1em;
     }
     .contact-icon {
-        width: 2em;
+        width: 4em;
     }
     }
  `;

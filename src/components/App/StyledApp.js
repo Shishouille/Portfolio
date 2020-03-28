@@ -6,7 +6,11 @@ const StyledApp = styled.div`
   margin: auto;
   background-image: url(${background});
   background-size: cover;
+  background-position:center;
   background-repeat: no-repeat;
+  @media (max-width: 768px) {
+  background-position: unset;
+  }
  `;
 
 export default StyledApp;

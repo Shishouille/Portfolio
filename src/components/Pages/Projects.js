@@ -1,17 +1,22 @@
 import React from 'react';
+
+import theWanderExample from 'src/assets/images/theWanderExample.PNG';
+
 import StyledTitle from './StyledTitle';
-import theWanderExample from 'src/assets/images/theWanderExample.PNG'
+
 
 import StyledProjects from './StyledProjects';
 
 const Projects = () => (
   <>
-    <StyledTitle>Current Projects</StyledTitle>
+    <StyledTitle>Projects</StyledTitle>
     <StyledProjects>
-      <article>
+      <article className="project-main">
         <h2>The Wander</h2>
-        <img className="projects-image" src={theWanderExample} alt="The Wander" />
-        <p>Create your own stars with others in a collaborative universe.</p>
+        <a href="http://52.203.65.107/" target="_blank">
+          <img className="projects-image" src={theWanderExample} alt="The Wander" />
+          <p className="projects-description">Create your own stars with others in a collaborative universe.</p>
+        </a>
       </article>
       <article>
         <h2>New Projects Coming Soon !</h2>

@@ -17,7 +17,7 @@ const Contact = () => {
   };
   return (
   <>
-    <StyledTitle>So many ways to contact me... Don't be shy, pick one!</StyledTitle>
+    <StyledTitle>Contact</StyledTitle>
     <StyledContact>
       <a href="mailto:shirin.boomi.dev@gmail.com" className="contact-link">
         <img src={gmail} alt="Mail" className="contact-icon" />
@@ -33,7 +33,7 @@ const Contact = () => {
       </a>
       <div onClick={copyToClipboard} className="contact-link">
         <img src={discord} alt="Discord" className="contact-icon" />
-        <legend>Discord (Copy to ClickBoard)</legend>
+        <legend>Discord (Copy to Clipboard)</legend>
       </div>
       <a href="https://github.com/Shishouille" className="contact-link">
         <img src={github} alt="Github" className="contact-icon" />

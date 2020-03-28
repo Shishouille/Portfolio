@@ -1,11 +1,11 @@
 export default {
-  colors: {
-    mainColor: 'white',
-    altColor: 'lightblue',
+  color: {
+    main: 'rgb(58, 109, 124)',
+    alt: 'white',
+    line: 'white',
   },
-  fonts: {
-    title: 'Open Sans',
-    text: 'Crimson Text',
+  font: {
+    title: '\'Playfair Display\', serif',
+    text: '\'Dosis\', sans-serif',
   },
-  gutter: 2,
 };

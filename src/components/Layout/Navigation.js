@@ -8,6 +8,7 @@ const Navigation = () => (
     <div className="nav-display">
       <NavLink
         to="/"
+        className="nav-main"
       >
         Shirin Boomi
       </NavLink>

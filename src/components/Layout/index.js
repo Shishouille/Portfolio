@@ -1,5 +1,12 @@
-export { default as Footer } from './Footer';
-export { default as Navigation } from './Navigation';
-export { default as StyledNav } from './StyledNav';
+import React from 'react';
+import Navigation from './Navigation';
+import Footer from './Footer';
 
+const Layout = ({ children }) => (
+  <div>
+    <Navigation />
+      {children}
+    <Footer />
+  </div>
+);
 export default Layout;

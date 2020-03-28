@@ -859,27 +859,15 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bundle-stats/cli-utils@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@bundle-stats/cli-utils/-/cli-utils-2.0.1.tgz#7b02451d34edb5c92464da367c8dd33ea2052fda"
-  integrity sha512-MYqmeIv2UciUCmCALEgkoAYgbulcIWIl6ZSKMolIo8Pg5tvWCAThuu8H6XiY1TebQdEcNCUQPqI9fd9wKrHgfg==
-  dependencies:
-    "@bundle-stats/html-templates" "^2.0.1"
-    "@bundle-stats/utils" "^2.0.0"
-    core-js "^3.1.4"
-    find-cache-dir "^3.1.0"
-    fs-extra "^8.1.0"
-    lodash "4.17.15"
+"@bundle-stats/html-templates@^1.15.8":
+  version "1.15.8"
+  resolved "https://registry.yarnpkg.com/@bundle-stats/html-templates/-/html-templates-1.15.8.tgz#d40dba06127e38cf9f1c1151da44c29711c64bb1"
+  integrity sha512-697Xvm7SA5rJS5ER3HW0CEdhjkrBfjGNQS7KDzhht/pjIlJwLH8By1rKX9tDokRaPelJPlAnHzFKkfWtow8ruQ==
 
-"@bundle-stats/html-templates@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@bundle-stats/html-templates/-/html-templates-2.0.1.tgz#868bfa25f049ed591a4536d69c758c3af0f19b64"
-  integrity sha512-ApF5kWVUNo/ZBVdcN3cuW76F9+iGZiTUX7UxCtXbmYTzjCY7KlWo6IB/Y8t38kP60CEZHY9dVWoM3jOmG/Fv+Q==
-
-"@bundle-stats/utils@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@bundle-stats/utils/-/utils-2.0.0.tgz#94c07223520cf3b219e8e89b8920688e2d1a7d2a"
-  integrity sha512-js4CeWoFzk2Y7Vv5QeBN1qvPBS+9zp9NwJR5UX9NQ6WClsRFg/GEAKse2zxJGnicB83+YNuqO5lrTNqMr7jZvg==
+"@bundle-stats/utils@^1.15.8":
+  version "1.15.8"
+  resolved "https://registry.yarnpkg.com/@bundle-stats/utils/-/utils-1.15.8.tgz#f1ed77832cc21a48c216f876ee4fda0ffc53fce7"
+  integrity sha512-y/mj2Yh58isU54T3Jv1XiAL5lN3CxwtSkEd3kFqvsN/OhRF0jQOWnfH3IRUXmtK2U55T4RMlYyH7fPpv+jL9Pg==
   dependencies:
     convert-units "^2.3.4"
     core-js "^3.1.4"
@@ -1869,19 +1857,20 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
-bundle-stats@*:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/bundle-stats/-/bundle-stats-2.0.1.tgz#da1f99341cf086f990e0048b8e885fb17fe49d25"
-  integrity sha512-386r0fDWKGIhWdz9gb9W2QHpTwHmHL4yHb4b/j4NX7r9R3tPUu72XcxpKq+ChPEskIroqzNFn4ZIh/geQf8W3A==
+bundle-stats@1.15.8:
+  version "1.15.8"
+  resolved "https://registry.yarnpkg.com/bundle-stats/-/bundle-stats-1.15.8.tgz#1060bd7e9500606d5e66d66026b1a51a22f7ce26"
+  integrity sha512-5W0Pmf0pt96cZ7CrLfyEGNXM6LnYhzGGXr2cmJwAbeGcUKu/lsyR8gnSQk6C5kVdMAt+5lCeg+fZ6RTHSCUdSw==
   dependencies:
-    "@bundle-stats/cli-utils" "^2.0.1"
-    "@bundle-stats/utils" "^2.0.0"
-    boxen "^4.2.0"
+    "@bundle-stats/html-templates" "^1.15.8"
+    "@bundle-stats/utils" "^1.15.8"
+    core-js "^3.1.4"
+    find-cache-dir "3.3.0"
     fs-extra "8.1.0"
     listr "^0.14.3"
     lodash "4.17.15"
     update-notifier "4.1.0"
-    yargs "15.2.0"
+    yargs "15.1.0"
 
 bytes@3.0.0:
   version "3.0.0"
@@ -3958,6 +3947,15 @@ finalhandler@~1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
+find-cache-dir@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/find-cache-dir/-/find-cache-dir-3.3.0.tgz#4d74ed1fe9ef1731467ca24378e8f8f5c8b6ed11"
+  integrity sha512-PtXtQb7IrD8O+h6Cq1dbpJH5NzD8+9keN1zZ0YlpDzl1PwXEJEBj6u1Xa92t1Hwluoozd9TNKul5Hi2iqpsWwg==
+  dependencies:
+    commondir "^1.0.1"
+    make-dir "^3.0.2"
+    pkg-dir "^4.1.0"
+
 find-cache-dir@^2.0.0, find-cache-dir@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/find-cache-dir/-/find-cache-dir-2.1.0.tgz#8d0f94cd13fe43c6c7c261a0d86115ca918c05f7"
@@ -3967,7 +3965,7 @@ find-cache-dir@^2.0.0, find-cache-dir@^2.1.0:
     make-dir "^2.0.0"
     pkg-dir "^3.0.0"
 
-find-cache-dir@^3.1.0, find-cache-dir@^3.2.0:
+find-cache-dir@^3.2.0:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/find-cache-dir/-/find-cache-dir-3.3.1.tgz#89b33fad4a4670daa94f855f7fbe31d6d84fe880"
   integrity sha512-t2GDMt3oGC/v+BMwzmllWDuJF/xcDtE5j/fCGbqDD7OLuJkj0cfh1YSA5VKPvwMeLFLNDBkwOKZ2X85jGLVftQ==
@@ -4093,7 +4091,7 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-fs-extra@8.1.0, fs-extra@^8.1.0:
+fs-extra@8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
   integrity sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==
@@ -9876,10 +9874,10 @@ yargs-parser@^11.1.1:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs-parser@^17.1.0:
-  version "17.1.0"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-17.1.0.tgz#b95ff3201e98b89e86070f92bef636016a0b0766"
-  integrity sha512-67zLl4/kWtp9eyVuxX+fHZ2Ey4ySWh0awDJlk/EtT0vzspsXbzrFsh76WjYSP3L++zhSwHQRUE3MCBe754RuEg==
+yargs-parser@^16.1.0:
+  version "16.1.0"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-16.1.0.tgz#73747d53ae187e7b8dbe333f95714c76ea00ecf1"
+  integrity sha512-H/V41UNZQPkUMIT5h5hiwg4QKIY1RPvoBV4XcjUbRM8Bk2oKqqyZ0DIEbTFZB0XjbtSPG8SAa/0DxCQmiRgzKg==
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
@@ -9944,10 +9942,10 @@ yargs@13.3.2, yargs@^13.3.0:
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
 
-yargs@15.2.0:
-  version "15.2.0"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.2.0.tgz#cb9fc7f7ec429f7e9329b623f5c707a62dae506a"
-  integrity sha512-E+o8C37U+M7N15rBJVxr0MoInp+O7XNhMqveSGWA5uhddqs8qtkZ+uvT9FI32QML0SKidXdDONr40Xe3tDO9FA==
+yargs@15.1.0:
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.1.0.tgz#e111381f5830e863a89550bd4b136bb6a5f37219"
+  integrity sha512-T39FNN1b6hCW4SOIk1XyTOWxtXdcen0t+XYrysQmChzSipvhBO8Bj0nK1ozAasdk24dNWuMZvr4k24nz+8HHLg==
   dependencies:
     cliui "^6.0.0"
     decamelize "^1.2.0"
@@ -9959,4 +9957,4 @@ yargs@15.2.0:
     string-width "^4.2.0"
     which-module "^2.0.0"
     y18n "^4.0.0"
-    yargs-parser "^17.1.0"
+    yargs-parser "^16.1.0"

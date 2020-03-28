@@ -35,7 +35,6 @@ const Bio = () => {
       setCounter(0);
       setHobby(false);
     }
-    console.log(counter);
   };
   return (
     <div style={{ minHeight: '100vh' }}>

@@ -79,6 +79,11 @@ const StyledBioIntro = styled.main`
       font-size: 1em;
     }
 
+    .bio-link {
+      text-decoration: underline;
+      color: ${theme.color.alt};
+    }
+
     @media (max-width: 768px) {
     flex-direction: column;
     justify-content: center;

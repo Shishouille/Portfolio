@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import discord from 'src/assets/images/icons/discord.svg';
 import github from 'src/assets/images/icons/github.svg';

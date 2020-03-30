@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import profilePicture from 'src/assets/images/avatar-portfolio.jpeg';
 import boxe from 'src/assets/images/icons/boxing-gloves.svg';
@@ -8,6 +9,8 @@ import lightbulb from 'src/assets/images/icons/idea.svg';
 import palette from 'src/assets/images/icons/paint-palette.svg';
 import pencil from 'src/assets/images/icons/pencil.svg';
 import radio from 'src/assets/images/icons/radio.svg';
+
+import cv from '../../assets/images/cv.pdf';
 
 
 import StyledTitle from './StyledTitle';
@@ -61,6 +64,16 @@ const Bio = () => {
           <p className="bio-article-text">
             I want to move from where I am now : Corsica (France). I can go anywhere in Europe : from Spain to Norway.
             My luggages are ready!
+          </p>
+          <h2 className="bio-article-title">Looking for a Front-end Developper ?</h2>
+          <p className="bio-article-text">
+            You can <a href={cv} className="bio-link" download>download my CV</a> or
+            <Link
+              to="/contact"
+              className="bio-link"
+            >
+              contact me.
+            </Link>
           </p>
         </article>
       </StyledBioIntro>

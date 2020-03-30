@@ -33,7 +33,7 @@ const StyledBioIntro = styled.main`
     justify-content: space-around;
     text-align: end;
     .bio-article {
-      width: 50%;
+      width: 55%;
       z-index: 2;
       line-height: 2em;
       animation-name: ${FadeIntro};

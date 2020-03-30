@@ -43,7 +43,7 @@ const Bio = () => {
         <div className="bio-profile">
           <img src={profilePicture} className="bio-picture" alt="Me" />
           <legend className="bio-legend">
-            <h2 className="bio-legend-text">Looking for a job</h2>
+            <h2 className="bio-legend-text">Front-end Developper</h2>
           </legend>
         </div>
         <article className="bio-article">
@@ -59,7 +59,7 @@ const Bio = () => {
           </p>
           <h2 className="bio-article-title">Where will I go ?</h2>
           <p className="bio-article-text">
-            I want to move from where I am now. I can go anywhere in Europe : from Spain to Norway.
+            I want to move from where I am now : Corsica (France). I can go anywhere in Europe : from Spain to Norway.
             My luggages are ready!
           </p>
         </article>

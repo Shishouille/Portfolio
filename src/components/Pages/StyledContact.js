@@ -25,6 +25,8 @@ to {
 const StyledContact = styled.main`
     display: flex;
     overflow:hidden;
+    position: relative;
+    z-index: 2;
     color: ${theme.color.main};
     justify-content: space-around;
     text-align: center;
@@ -32,7 +34,7 @@ const StyledContact = styled.main`
     align-items: center;
     flex-flow: column-wrap;
     width:100%;
-    min-height:90vh;
+    min-height:100vh;
     font-family: ${theme.font.text};
     animation-name: ${FadeIntro};
     animation-duration: 1.5s;
@@ -52,7 +54,7 @@ const StyledContact = styled.main`
 
     @media (max-width: 768px) {
     display:block;
-    margin:auto;
+    margin-top: 2em;
     text-align: center;
     .contact-link {
         display:block;

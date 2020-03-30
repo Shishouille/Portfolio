@@ -8,6 +8,10 @@ const StyledFooter = styled.footer`
   font-size: .8em;
   color: ${theme.color.alt};
   border-top: 1px solid rgba(255,255,255, 0.3);
+  @media (max-width: 768px) {
+    width: 90%;
+    font-size: .6em;
+  }
  `;
 
 export default StyledFooter;

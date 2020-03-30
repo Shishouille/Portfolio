@@ -67,6 +67,7 @@ const StyledBioIntro = styled.main`
       padding-left: .3em;
       padding-right: .3em;
       border: 1px solid ${theme.color.alt};
+      font-size: 1.2em;
       background-color: rgba(255, 255, 255, 0.7);
       right: 0;
       bottom: 30%;
@@ -87,8 +88,6 @@ const StyledBioIntro = styled.main`
       height: 100%;
     }
     .bio-legend {
-      position: absolute;
-      color: ${theme.color.main};
       right: 20%;
       bottom: 38%;
     }
@@ -133,14 +132,17 @@ const StyledBioHobbies = styled.section`
     }
   .bio-clickme {
     width: 4em;
-    padding: .5em;
+    padding: .9em;
     height: 4em;
   }
   .bio-hobbies {
     margin-top: 1em;
     font-weight: lighter;
     font-family: ${theme.font.text};
-}
+  }
+  .bio-aside {
+    margin-bottom: 1em;
+  }
 `;
 
 export { StyledBioIntro, StyledBioHobbies };

@@ -124,7 +124,7 @@ const StyledSkills = styled.main`
     }
     }
     .skills-package {
-      background-color: rgba(255, 255, 255, 0.5);
+      background-color: rgba(255, 255, 255, 0.4);
       border: 2px solid white;
       border-radius: .2em;
       position: relative;
@@ -179,6 +179,12 @@ const StyledSkills = styled.main`
     @media (max-width: 768px) {
       .skills-name {
         opacity: 100%;
+      }
+      .skills-container {
+        margin-bottom: 2em;
+      }
+      .skills-package {
+        width:100%;
       }
     }
  `;

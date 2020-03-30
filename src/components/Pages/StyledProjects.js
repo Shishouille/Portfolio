@@ -14,6 +14,8 @@ to {
 const StyledProjects = styled.main`
     color: ${theme.color.main};
     font-family: ${theme.font.title};
+    position: relative;
+    z-index: 2;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -37,6 +39,11 @@ const StyledProjects = styled.main`
     }
     .projects-description {
         font-family: ${theme.font.text};
+    }
+    @media (max-width: 768px) {
+      .projects-image {
+        width: 50vw;
+      }
     }
  `;
 

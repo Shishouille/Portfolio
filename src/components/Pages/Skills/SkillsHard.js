@@ -27,6 +27,7 @@ import clipboard from 'src/assets/images/icons/clipboard.svg';
 import graph from 'src/assets/images/icons/graph.svg';
 import azure from 'src/assets/images/icons/azure.svg';
 import jquery from 'src/assets/images/icons/jquery.svg';
+import linux from 'src/assets/images/icons/linux.svg';
 
 
 const SkillsHard = () => (
@@ -134,6 +135,10 @@ const SkillsHard = () => (
           <div className="skills-setup">
             <img className="skills-icon" src={vsc} alt="VSC" />
             <legend>VSC with Liveshare</legend>
+          </div>
+          <div className="skills-setup">
+            <img className="skills-icon" src={linux} alt="Linux" />
+            <legend>Linux</legend>
           </div>
         </div>
       </section>

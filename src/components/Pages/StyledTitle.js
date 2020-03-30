@@ -24,6 +24,7 @@ const StyledTitle = styled.h1`
 
     @media (max-width: 768px) {
       font-size: 3em;
+      padding-top: 1em;
     }
  `;
 

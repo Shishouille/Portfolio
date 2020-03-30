@@ -30,7 +30,7 @@ const SkillsSoft = () => (
           <p>Meeting new people is so exciting!</p>
         </div>
         <div className="skills-soft">
-          <h4 className="skills-soft-title">Adaptation</h4>
+          <h4 className="skills-soft-title">Adaptability</h4>
           <p>Goes by pair with curiosity and sociability : New environment, new people to meet, new things to learn! I'm used of the change.</p>
         </div>
       </section>

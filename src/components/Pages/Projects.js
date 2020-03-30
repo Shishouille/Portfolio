@@ -14,7 +14,7 @@ const Projects = () => (
       <article className="project-main">
         <h2>The Wander</h2>
         <a href="http://52.203.65.107/" target="_blank">
-          <img className="projects-image" src={theWanderExample} alt="The Wander" />
+          <img className="projects-image" src={theWanderExample} alt="The Wander" title="Visit Website" />
           <p className="projects-description">Create your own stars with others in a collaborative universe.</p>
         </a>
       </article>

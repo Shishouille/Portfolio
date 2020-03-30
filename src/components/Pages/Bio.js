@@ -67,7 +67,7 @@ const Bio = () => {
           </p>
           <h2 className="bio-article-title">Looking for a Front-end Developper ?</h2>
           <p className="bio-article-text">
-            You can <a href={cv} className="bio-link" download>download my CV</a> or
+            You can <a href={cv} className="bio-link" download>download my resume</a> or
             <Link
               to="/contact"
               className="bio-link"

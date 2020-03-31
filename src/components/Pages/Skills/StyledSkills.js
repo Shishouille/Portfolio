@@ -81,7 +81,7 @@ const StyledSkills = styled.main`
     }
     .skills-content {
       width:100%;
-      min-height: 100vh;
+      min-height: 90vh;
       animation-name: ${FadeIntro};
       animation-duration: 1.5s;
       animation-timing-function: ease-in-out;

@@ -1,12 +1,13 @@
 import React from 'react';
 import Navigation from './Navigation';
 import Footer from './Footer';
+import StyledLayout from './StyledLayout';
 
 const Layout = ({ children }) => (
-  <div>
+  <StyledLayout>
     <Navigation />
-      {children}
+    {children}
     <Footer />
-  </div>
+  </StyledLayout>
 );
 export default Layout;

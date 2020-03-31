@@ -34,7 +34,7 @@ const StyledContact = styled.main`
     align-items: center;
     flex-flow: column-wrap;
     width:100%;
-    min-height:100vh;
+    min-height:90vh;
     font-family: ${theme.font.text};
     animation-name: ${FadeIntro};
     animation-duration: 1.5s;

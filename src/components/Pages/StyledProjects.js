@@ -21,7 +21,7 @@ const StyledProjects = styled.main`
     justify-content: center;
     align-items: center;
     flex-flow: column;
-    min-height: 100vh;
+    min-height: 90vh;
     animation-name: ${FadeIntro};
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;

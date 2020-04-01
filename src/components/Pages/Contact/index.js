@@ -6,7 +6,7 @@ import gmail from 'src/assets/images/icons/gmail.svg';
 import linkedin from 'src/assets/images/icons/linkedin.svg';
 import twitter from 'src/assets/images/icons/twitter.svg';
 
-import StyledTitle from './StyledTitle';
+import StyledTitle from '../StyledTitle';
 import StyledContact from './StyledContact';
 
 

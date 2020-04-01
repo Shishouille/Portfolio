@@ -10,10 +10,11 @@ import palette from 'src/assets/images/icons/paint-palette.svg';
 import pencil from 'src/assets/images/icons/pencil.svg';
 import radio from 'src/assets/images/icons/radio.svg';
 
-import cv from '../../assets/images/cv.pdf';
+import cv from '../../../assets/images/cv.pdf';
 
 
-import StyledTitle from './StyledTitle';
+import StyledTitle from '../StyledTitle';
+import StyledWrapper from '../StyledWrapper';
 import { StyledBioIntro, StyledBioHobbies } from './StyledBio';
 
 
@@ -40,7 +41,7 @@ const Bio = () => {
     }
   };
   return (
-    <div style={{ minHeight: '100vh' }}>
+    <StyledWrapper>
       <StyledTitle>Bio</StyledTitle>
       <StyledBioIntro>
         <div className="bio-profile">
@@ -85,7 +86,7 @@ const Bio = () => {
           <h3 className="bio-hobbies">I like to {hobbies[counter]} </h3>
         </aside>
       </StyledBioHobbies>
-    </div>
+    </StyledWrapper>
   );
 };
 

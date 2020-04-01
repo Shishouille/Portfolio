@@ -2,7 +2,7 @@ import React from 'react';
 
 import theWanderExample from 'src/assets/images/theWanderExample.PNG';
 
-import StyledTitle from './StyledTitle';
+import StyledTitle from '../StyledTitle';
 
 
 import StyledProjects from './StyledProjects';

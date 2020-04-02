@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -10,7 +11,7 @@ import palette from 'src/assets/images/icons/paint-palette.svg';
 import pencil from 'src/assets/images/icons/pencil.svg';
 import radio from 'src/assets/images/icons/radio.svg';
 
-import cv from '../../../assets/images/cv.pdf';
+import cv from '../../../assets/files/cv.pdf';
 
 
 import StyledTitle from '../StyledTitle';
@@ -27,7 +28,8 @@ const Bio = () => {
     ' draw sometimes.',
     ' play videogames.',
     ' understand design.',
-    ' learn stuff.'];
+    ' learn stuff.',
+  ];
 
   const hobbiesPictures = ['', radio, boxe, camera, pencil, gamepad, palette, lightbulb];
   const [counter, setCounter] = useState(0);

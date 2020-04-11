@@ -28,6 +28,8 @@ import graph from 'src/assets/images/icons/graph.svg';
 import azure from 'src/assets/images/icons/azure.svg';
 import jquery from 'src/assets/images/icons/jquery.svg';
 import linux from 'src/assets/images/icons/linux.svg';
+import tailwind from 'src/assets/images/icons/tailwind.svg';
+import nextjs from 'src/assets/images/icons/nextjs.svg';
 
 
 const SkillsHard = () => (
@@ -90,11 +92,24 @@ const SkillsHard = () => (
         </div>
       </section>
       <section className="skills-package">
+        <h4 className="skills-name">Fullstack framework</h4>
+        <div className="skills-sub">
+          <div className="skills-setup">
+            <img className="skills-icon" src={nextjs} alt="NextJS" />
+            <legend>NextJS</legend>
+          </div>
+        </div>
+      </section>
+      <section className="skills-package">
         <h4 className="skills-name">The bonuses</h4>
         <div className="skills-sub">
           <div className="skills-setup">
             <img className="skills-icon" src={styled} alt="Styled-Components" />
             <legend>Styled-Components</legend>
+          </div>
+          <div className="skills-setup">
+            <img className="skills-icon" src={tailwind} alt="TailwindCSS" />
+            <legend>Tailwind CSS</legend>
           </div>
           <div className="skills-setup">
             <img className="skills-icon" src={reactRouter} alt="React-Router" />

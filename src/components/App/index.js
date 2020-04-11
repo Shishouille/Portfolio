@@ -22,7 +22,7 @@ const App = () => (
           <Skills />
         </Route>
         <Route path="/projects">
-          <Projects />
+          <Projects /> 
         </Route>
         <Route path="/contact">
           <Contact />

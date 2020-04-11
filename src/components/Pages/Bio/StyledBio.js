@@ -82,6 +82,7 @@ const StyledBioIntro = styled.main`
     .bio-link {
       text-decoration: underline;
       color: ${theme.color.alt};
+      font-weight: bold;
     }
 
     @media (max-width: 768px) {

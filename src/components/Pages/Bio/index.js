@@ -48,9 +48,9 @@ const Bio = () => {
       <StyledBioIntro>
         <div className="bio-profile">
           <img src={profilePicture} className="bio-picture" alt="Me" />
-          <legend className="bio-legend">
+          {/* <legend className="bio-legend">
             <h2 className="bio-legend-text">Front-end Developper</h2>
-          </legend>
+          </legend> */}
         </div>
         <article className="bio-article">
           <h2 className="bio-article-title">About me</h2>

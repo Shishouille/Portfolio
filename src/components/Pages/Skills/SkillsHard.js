@@ -92,7 +92,7 @@ const SkillsHard = () => (
         </div>
       </section>
       <section className="skills-package">
-        <h4 className="skills-name">Fullstack framework</h4>
+        <h4 className="skills-name">React framework</h4>
         <div className="skills-sub">
           <div className="skills-setup">
             <img className="skills-icon" src={nextjs} alt="NextJS" />
